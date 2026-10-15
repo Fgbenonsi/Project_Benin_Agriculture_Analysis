@@ -119,35 +119,37 @@ yield_pct = round(100 * yield_contrib / total, 1)
 
 Benin's cropland grew from ~973,000 ha in 1961 to ~4,314,600 ha in 2024 (+343%). Over the same period, forest land fell from ~6,980,000 ha in 1990 to ~3,170,000 ha in 2024 (−55%). Approximately 68% of forest loss is explained by cropland expansion.
 
-![Dashboard 1 — Overview](dataease/dashboard_1_overview.png)
+![Dashboard 1 — Overview](dataease/Dashboard_1_overview.png)
 
 ### 2. Fertilizer and pesticide use surged after 2017
 
 Fertilizer imports grew from ~35,000 t in 2000 to ~93,000 t in 2024. Pesticide use intensity quadrupled after 2016, reaching 2.06 kg/ha by 2024. Benin has no domestic fertilizer production - it is 100% import-dependent.
 
-![Dashboard 2 — Inputs](dataease/dashboard_2_inputs.png)
+![Dashboard 2 — Inputs](dataease/Dashboard_2_inputs.png)
 
 ### 3. Yields did not respond
 
 Pooled correlation between yield and fertilizer is 0.03; between yield and pesticide, 0.05. Per-crop regression shows a statistically significant fertilizer effect only for soybeans. For 18 of 19 crops, input use has no detectable yield effect.
 
-![Dashboard 3 — Efficiency](dataease/dashboard_3_efficiency.png)
+![Dashboard 3 — Efficiency](dataease/Dashboard_3_efficiency.png)
 
 ### 4. Growth came from land, not productivity
 
 For 12 of 19 crops, more than 80% of production growth came from area expansion rather than yield improvement. Only sorghum and chillies grew mainly through yield gains.
 
-![Dashboard 4 — Decomposition](dataease/dashboard_4_decomposition.png)
+![Dashboard 4 — Decomposition](dataease/Dashboard_4_decomposition.png)
 
 ## Repository Structure
 
+```
 .
-├── Data harvesting/ # Python scripts for downloading FAOSTAT data
-├── Table analysis/ # SQL files for pesticide, fertilizer, land use analysis
-├── Final table/ # SQL files for analysis views
-├── Stats/ # Jupyter notebook for statistical analysis
-├── dataease/ # Dashboard images
+├── Data harvesting/  # Python scripts for downloading FAOSTAT data
+├── Table analysis/   # SQL files for pesticide, fertilizer, land use analysis
+├── Final table/      # SQL files for analysis views
+├── Stats/            # Jupyter notebook for statistical analysis
+├── dataease/         # Dashboard images
 └── README.md
+```
 
 
 ## License

@@ -3,8 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # --- FAOSTAT Credentials ---
-USERNAME = "akomavo.gbenonsi@unesp.br"
-PASSWORD = "Francklin123456@"
+
 
 # --- Step 1: Get a fresh token ---
 login_url = "https://faostatservices.fao.org/api/v1/auth/login"
